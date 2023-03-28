@@ -2,13 +2,16 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
     text-align: left;
+    
 }
 .shop{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 45px; 
     margin: 120px 105px 111px;
+   
 }
-.order-summery{
-    background-color: antiquewhite;
+.cart{
+    background-color: rgb(249, 212, 165);
+    padding: 20px;
 }
